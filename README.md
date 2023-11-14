@@ -1,5 +1,5 @@
 # speed-testing-project
-# Description
+## Description
 
 # This project is designed to measure network performance by providing a server hosted on Google Cloud and a JavaScript client that calls APIs to the server. The server has three main routes: `default`, `download`, and `upload`. The JavaScript client interacts with these routes to measure network speed, including ping, download speed, and upload speed.
 
@@ -19,7 +19,7 @@
 #   - Purpose: Measure upload speed
 #   - Description: The upload route expects a 20 MB file from the client and is used to measure the upload speed. When the server is first run, a 20 MB file is generated for this purpose. The client uploads the file, and the time taken for the upload is recorded, giving us the upload speed.
 
-### JavaScript File (script.js)
+# JavaScript File (script.js)
 
 # The client-side component of the project is implemented in `script.js`. It interacts with the server using APIs and provides three primary functions:
 
@@ -32,6 +32,6 @@
 # 3. Upload File
 #   - Description: The `uploadFile` function generates a random 20 MB file and calculates the time it takes to upload the file. This gives us information about the upload speed of the network connection.
 
-### index.html File
+# index.html File
 
 # The `index.html` file is the main webpage of the project. It serves as the user interface for interacting with the server and using the JavaScript functions mentioned above. This is where users can initiate the network speed measurements.
